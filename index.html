@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dartboard Game</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="title">VS DARTS</h1>
+        <p class="player">PLAYER</p>
+        <form class="color" id="myform">
+            <div class="inline">
+                <div>
+                <input type="radio" name="pnum" id="pnum1" value="1"  checked="checked">
+                <label>1</label></div>
+                <div>
+                <input type="radio" name="pnum" id="pnum2" value="2">
+                <label>2</label></div>
+                <div>
+                <input type="radio" name="pnum" id="pnum3" value="3">
+                <label>3</label></div>
+                <div>
+                <input type="radio" name="pnum" id="pnum4" value="4">
+                <label>4</label></div>
+            </div>
+            <p class="player">GAME SELECT</p>
+            <div class="inline">
+                <div>
+                <input type="radio" name="gameselect" id="select" value="01"  checked="checked">
+                <label>01</label></div>
+                <div>
+                <input type="radio" name="gameselect" id="pnum2" value="COUNT-UP">
+                <label>COUNT-UP</label></div>
+                <div>
+                <input type="radio" name="gameselect" id="pnum3" value="CRICKET">
+                <label>CRICKET</label></div>
+            </div>
+            <div class="gamestart">
+                <a href="#"><button type="submit" class="gamestart" id="start">GAME START</button></a>
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
